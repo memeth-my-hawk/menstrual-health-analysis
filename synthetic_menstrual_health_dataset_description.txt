@@ -1,0 +1,61 @@
+SYNTHETIC MENSTRUAL HEALTH DATASET (1512 rows, 15 columns)
+-----------------------------------------------------------------
+Data story
+This synthetic dataset represents responses from a community health survey focused on menstrual health and lifestyle. 
+Participants provided demographic and lifestyle information, along with self-reported menstrual cycle characteristics 
+and symptom severity. The dataset is designed for educational and analytics purposes only and does not represent any 
+real individuals.
+
+Important note
+- This is a fully synthetic dataset created to look realistic for practice in data analysis and modeling.
+- The health-related fields (e.g., PCOS_Diagnosis, Endometriosis_Diagnosis) are synthetic labels for modeling practice; 
+  they are NOT medical diagnoses.
+
+Columns (15)
+1) Age_years (numeric, integer)
+   - Range: 15 to 49 (years)
+   - Description: Age of the participant at the time of the survey.
+
+2) BMI (numeric, continuous)
+   - Range: 16.0 to 40.0 (kg/m^2)
+
+3) EducationLevel (categorical)
+   - Levels: Middle/High School, Bachelor, Master, PhD/Professional
+
+4) EmploymentStatus (categorical)
+   - Levels: Student, Employed, Unemployed/Other
+
+5) SmokingStatus (categorical)
+   - Levels: Never, Former, Current
+
+6) ContraceptiveUse (categorical)
+   - Levels: None, Hormonal, Non-hormonal
+
+7) DietPattern (categorical)
+   - Levels: Balanced, High-sugar/Processed, Vegetarian, Low-carb/Keto
+
+8) HealthcareAccess (categorical)
+   - Levels: Good, Moderate, Poor
+
+9) PCOS_Diagnosis (categorical)
+   - Levels: Yes, No
+
+10) Endometriosis_Diagnosis (categorical)
+    - Levels: Yes, No
+
+11) StressScore_0_40 (numeric, discrete/continuous)
+    - Range: 0 to 40 (higher values indicate higher perceived stress)
+
+12) CycleLength_days (numeric, continuous)
+    - Range: 21.0 to 45.0 (days)
+
+13) PeriodDuration_days (numeric, continuous)
+    - Range: 2.0 to 10.0 (days)
+
+14) PainScore_0_10 (numeric, continuous)
+    - Range: 0.0 to 10.0 (self-reported severity)
+
+15) HighSymptomBurden (categorical target)
+    - Levels: Low, High
+    - Intended use: classification target for predicting higher overall symptom burden.
+
